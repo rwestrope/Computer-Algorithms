@@ -13,7 +13,7 @@ all_data = [data_one, data_two, data_three, data_four, data_five]
 
 
 for data_group in all_data:
-    for i in range(0, 10):
+    for i in range(0, 500):
         n = random.randint(-1000, 1000)
         data_group.append(n)
 
