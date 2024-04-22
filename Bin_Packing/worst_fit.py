@@ -40,6 +40,6 @@ def worstFit( weight, n, c):
 weight = [ 2, 5, 4, 7, 1, 3, 8 ]
 c = 10
 n = len(weight)
-print(f"Number of bins required in Worst Fit : {worstFit(weight, n, c)}")
+#print(f"Number of bins required in Worst Fit : {worstFit(weight, n, c)}")
 
 # This code is contributed by shinjanpatra

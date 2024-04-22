@@ -44,6 +44,6 @@ def firstFitDec(weight, n, c):
 weight = [ 2, 5, 4, 7, 1, 3, 8 ]
 c = 10
 n = len(weight)
-print("Number of bins required in First Fit Decreasing : ",str(firstFitDec(weight, n, c)))
+#print("Number of bins required in First Fit Decreasing : ",str(firstFitDec(weight, n, c)))
 
 # This code is contributed by shinjanpatra
