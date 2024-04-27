@@ -9,16 +9,16 @@ items_3 = [59, 70, 84, 7, 90, 97, 16, 57, 76, 62, 2, 15, 22, 34, 71, 73, 22, 69,
 c = 200
 n = 100
 
-optimal_solution = (sum(items_3))/200
+optimal_solution = (sum(items))/200
 print("optimal_solution:", optimal_solution)
 
 start_worst = timer()
-print(f"Number of bins required in Worst Fit : {worstFit(items_3, n, c)}")
+print(f"Number of bins required in Worst Fit : {worstFit(items, n, c)}")
 end_worst = timer()
 print("Time for worst fit:", end_worst - start_worst)
 
 start_first = timer()
-print("Number of bins required in First Fit Decreasing : ",str(firstFitDec(items_3, n, c)))
+print("Number of bins required in First Fit Decreasing : ",str(firstFitDec(items, n, c)))
 end_first = timer()
 print("Time for First Fit:", end_first - start_first)
 
